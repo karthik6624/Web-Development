@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Memories Photography Club!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link href=" //maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"/>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Image1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa-regular fa-xmark"  onclick="hideMenu()"></i></a>
+
+                <ul>
+                    <li><a href ="blog.html">Home</a></li>
+                    <li><a href ="gallery.html">Team</a></li>
+                    <li><a href ="blog.html">Blog</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a href ="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href=""><i class="fa-regular fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+        <h2>Contact Us</h2>
+    </section>
+<!----------------Contact-us ------------------->
+        <section class="Location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.92391663077!2d77.63093891581349!3d12.953922574718058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15a19df15c8f%3A0x84cbd5497bc24949!2sOur%20Memories%20Photo20Studio!5e0!3m2!1sen!2sin!4v1647352455780!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <section class="ContactUs">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                         <i class="fa fa-home"></i>
+                         <span>
+                             <h4>100ft road, Kalyan</h4>
+                             <p>New Delhi, India</p>
+                         </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h4>+91 8041218181</h4>
+                            <p>Monday to Sunday, 12AM to 12PM</p>
+                        </span>
+                   </div>
+               <div>
+                <i class="fas fa-envelope"></i>
+                <span>
+                    <h4>photographyclub@memories.com</h4>
+                    <p>Email us your Query</p>
+                </span>
+           </div>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="formhandler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your Email Id" required>
+                    <input type="text" name="subject" placeholder="Enter Your Category" required>
+                    <textarea rows="8" name="message" placeholder="'Message" required></textarea>
+                    <button type="Submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+        
+        </section>
+
+<!---------Footer----->
+<section class="FollowUs">
+    <h1>Follow Us </h1>
+    <h4>Our Social Media Handle links are provided below please do see our work and share them to your friends.</h4>
+    <div class="icons">
+       <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href ="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href ="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon>
+        <a href ="https://www.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon>
+        <a href ="https://www.whatsapp.com"><ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+</section>
+        <!------ JavaScricpt Code ---->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>

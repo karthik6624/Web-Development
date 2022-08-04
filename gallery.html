@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Memories Photography Club!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link href=" //maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"/>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Image1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa-regular fa-xmark"  onclick="hideMenu()"></i></a>
+
+                <ul>
+                    <li><a href ="mainpage.html">Home</a></li>
+                    <li><a href ="gallery.html">Team</a></li>
+                    <li><a href ="blog.html">Blog</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a href ="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href=""><i class="fa-regular fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+        <h2>Gallery</h2>
+    </section>
+<!-----------Gallery----------->
+<section class="Gallery">
+    <h1>Photo Gallery</h1>
+    <h4>We are Proffessional Photographers specializing in Travel and Destination Photography.<br>We provide services all over India.</h4>
+     <div class="row">
+       <div class="Gallery-col">
+           <h3>Wedding Photography</h3>
+           <h4>We have been to many places and captures many pictures from wildlife to busy roads and travel photography.<br>Some of our photographs look like as if they were paintings and some of them are like Magical Forest,breathkaing castle and traditional villages.</h4>
+           <img src="Images/wedding.jpeg">
+         </div>
+       <div class="Gallery-col">
+           <h3>Night Photography</h3>
+           <h4>Landscape Photography focuses on patterns and structures.Architectural photos, potraits and night photos are bursting with color.Photographs of Fireworks displays the celebartion of joy all over the world.Astrophotography of night skies is Incredible.</h4>
+           <img src="Images/night.jpeg">
+         </div>
+     </div>
+</section>
+<!------------Our Team---------------->
+<section class="OurTeam">
+    <h1>Our Photography Team</h1>
+    <h3>Our Team includes many top photographers in India.Momenta also hires student interns and works of multiple projects all over India.</h3>
+    <div class="row2">
+        <div class="OurTeam-col">
+            <img src="Images/karan.jpeg">
+            <h3>Karan Kumar</h3>
+            <h4>Karan is the Creative Head of Wedding Photography. He has been to many places in India and captured many rare and very Precious <br>Photographs. Karan has alo bagged the award, India's Best Phototgrapher in the<br> Year 2020.He became passionate about travelling and Night Phototgraphy.</h4>
+        </div>
+        <div class="OurTeam-col">
+            <img src="Images/haran.jpeg">
+            <h3>Haran Patel</h3>
+            <h4> Harn is the Creative Head of Night Photography.He has been to many peaceful places around the globe and started capturing them beautifully.<br>Haran also captured images of many wildlifes.He won the best Nature Photograph in the year 2021.<br>He aslo got many offers from International Magzines.</h4>
+        </div>
+            <div class="OurTeam-col">
+                <img src="Images/radhika.jpeg">
+                <h3>Radhika Apte</h3>
+                <h4>Radhika Apte,herself a photographer started this company named Momenta in the year 2017 and exapanded all over <br>India. Ms.Apte won many awards for best photpgraphy under night photography and nature photgraphy <br>categories.She also won the Best Business Woman Award in the year 2020.</h4>
+            </div>
+      </div>
+     </section>
+<!---------Footer----->
+<section class="FollowUs">
+    <h1>Follow Us </h1>
+    <h4>Our Social Media Handle links are provided below please do see our work and share them to your friends.</h4>
+    <div class="icons">
+       <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href ="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href ="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon>
+        <a href ="https://www.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon>
+        <a href ="https://www.whatsapp.com"><ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+</section>
+        <!------ JavaScricpt Code ---->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>

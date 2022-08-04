@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Memories Photography Club!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link href=" //maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"/>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Image1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa-regular fa-xmark"  onclick="hideMenu()"></i></a>
+
+                <ul>
+                    <li><a href ="mainpage.html">Home</a></li>
+                    <li><a href ="gallery.html">Team</a></li>
+                    <li><a href ="blog.html">Blog</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a href ="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href=""><i class="fa-regular fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+<!----------------About-us ------------------->
+        <section class="About-us">
+            <div class="row">
+                <div class="About-col">
+                    <h1>India's Finest Photography Club!</h1>
+                    <h4>Studio photographers photograph people, places, and products, and arrange all lighting, backdrops, 
+                       and equipment as necessary to capture specific images. Photography studios hire 
+                      studio photographers part-time, full-time, and seasonally to work flexible shifts that include evenings, weekends, and on-call hours as well.   
+                   </h4>
+                    <a href="" class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="About-col">
+                <img src="Images/Image3.jpeg">
+            </div>
+            </div>
+        </section>
+<!---------Footer----->
+<section class="FollowUs">
+    <h1>Follow Us </h1>
+    <h4>Our Social Media Handle links are provided below please do see our work and share them to your friends.</h4>
+    <div class="icons">
+       <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href ="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href ="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon>
+        <a href ="https://www.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon>
+        <a href ="https://www.whatsapp.com"><ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+</section>
+        <!------ JavaScricpt Code ---->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>

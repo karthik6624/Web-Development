@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> Moemories Photography Club!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link href=" //maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css"/>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/Image1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <a href="#"><i class="fa-regular fa-xmark"  onclick="hideMenu()"></i></a>
+
+                <ul>
+                    <li><a href ="mainpage.html">Home</a></li>
+                    <li><a href ="gallery.html">Team</a></li>
+                    <li><a href ="blog.html">Blog</a></li>
+                    <li><a href ="about.html">About</a></li>
+                    <li><a href ="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <a href=""><i class="fa-regular fa-bars" onclick="showMenu()"></i></a>
+        </nav>
+        <h2>Our Blog</h2>
+    </section>
+<!--------------------Blog Content------------>
+<section  class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="Images/club.jpeg">
+            <h2>Our recruiting Program</h2>
+            <p>With a photography club, you will keep your career in focus. On a daily basis, you might handle social media posts, help with styling and equipment, and do administrative work.
+                 All the while, you will improve your shooting and lighting techniques, hone your photo-editing skills, and learn how to market your work.
+                  Be prepared for every opportunity by knowing the basics of Adobe Photoshop and Lightroom and having a strong portfolio at the ready.</p>
+        <br>
+        <p>
+            Photography equipment isn’t cheap, and photography internships are often unpaid. While some photographers score full-time gigs as photojournalists, photography technicians, or web editors, most are freelance, specializing in portraits, travel, weddings, sports, or something else entirely.
+             According to the Bureau of Labor Statistics, the number of photography jobs is expected to decline slightly over the next decade. On average, a photographer makes a median annual salary of $34,000 ($16.35 per hour)—but you can always choose to conduct workshops or teach classes to supplement your income.
+        </p>
+<div class="comment-box">
+    <h3>Leave a Comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="'email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button typer="Submit" class="hero-btn red-btn">Post Comment</button>
+    </form>
+ </div>
+ </div>
+        <div class="blog-right">
+            <h3>Club CCategories</h3>
+            <div>
+               <span>Night Photography</span>
+               <span>25</span>
+            </div>
+            <div>
+               <span>Wedding Photography</span>
+               <span>22</span>
+            </div>
+        </div>
+</section>
+<!---------Footer----->
+<section class="FollowUs">
+    <h1>Follow Us </h1>
+    <h4>Our Social Media Handle links are provided below please do see our work and share them to your friends.</h4>
+    <div class="icons">
+       <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href ="https://www.instagram.com/"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href ="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon>
+        <a href ="https://www.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon>
+        <a href ="https://www.whatsapp.com"><ion-icon name="logo-whatsapp"></ion-icon>
+    </div>
+</section>
+        <!------ JavaScricpt Code ---->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
