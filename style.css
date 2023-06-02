@@ -297,8 +297,8 @@ h4{
     margin: 10px 0;
 }
 .Blog-col{
-    flex-basis: 35%;
-    background: #fff3f3;
+    flex-basis: 45%;
+    background: currentColor;
     border-radius: 31%;
     margin-bottom: 5%;
     padding: 20px 12px;
